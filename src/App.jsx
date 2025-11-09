@@ -4,10 +4,8 @@ import './App.css';
 
 // Import from components
 import Home from './components/home';
-
-// Dummy Components for Navigation
-const About = () => <h1>About Me - Learn more about my experience.</h1>;
-const Projects = () => <h1>Projects - Check out my work!</h1>;
+import About from './components/about'
+import Projects from './components/projects';
 
 function App() {
   return (
